@@ -15,9 +15,6 @@
 		2FCAC7991BE0AA2B00AABC9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCAC7971BE0AA2B00AABC9A /* LaunchScreen.storyboard */; };
 		2FCAC7A41BE0AA2B00AABC9A /* git__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAC7A31BE0AA2B00AABC9A /* git__Tests.m */; };
 		2FCAC7AF1BE0AA2B00AABC9A /* git__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAC7AE1BE0AA2B00AABC9A /* git__UITests.m */; };
-		2FCAC7BF1BE0B03E00AABC9A /* 01-GIT本地操作.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAC7BC1BE0B03D00AABC9A /* 01-GIT本地操作.m */; settings = {ASSET_TAGS = (); }; };
-		2FCAC7C01BE0B03E00AABC9A /* 02-GIT团队开发操作.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAC7BD1BE0B03E00AABC9A /* 02-GIT团队开发操作.m */; settings = {ASSET_TAGS = (); }; };
-		2FCAC7C11BE0B03E00AABC9A /* 03-GIT分支管理(了解).m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCAC7BE1BE0B03E00AABC9A /* 03-GIT分支管理(了解).m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +51,6 @@
 		2FCAC7AA1BE0AA2B00AABC9A /* git指令UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "git指令UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FCAC7AE1BE0AA2B00AABC9A /* git__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = git__UITests.m; sourceTree = "<group>"; };
 		2FCAC7B01BE0AA2B00AABC9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FCAC7BC1BE0B03D00AABC9A /* 01-GIT本地操作.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "01-GIT本地操作.m"; sourceTree = "<group>"; };
-		2FCAC7BD1BE0B03E00AABC9A /* 02-GIT团队开发操作.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "02-GIT团队开发操作.m"; sourceTree = "<group>"; };
-		2FCAC7BE1BE0B03E00AABC9A /* 03-GIT分支管理(了解).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "03-GIT分支管理(了解).m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +81,6 @@
 		2FCAC77D1BE0AA2B00AABC9A = {
 			isa = PBXGroup;
 			children = (
-				2FCAC7BC1BE0B03D00AABC9A /* 01-GIT本地操作.m */,
-				2FCAC7BD1BE0B03E00AABC9A /* 02-GIT团队开发操作.m */,
-				2FCAC7BE1BE0B03E00AABC9A /* 03-GIT分支管理(了解).m */,
 				2FCAC7881BE0AA2B00AABC9A /* git指令 */,
 				2FCAC7A21BE0AA2B00AABC9A /* git指令Tests */,
 				2FCAC7AD1BE0AA2B00AABC9A /* git指令UITests */,
@@ -280,11 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FCAC7911BE0AA2B00AABC9A /* ViewController.m in Sources */,
-				2FCAC7C11BE0B03E00AABC9A /* 03-GIT分支管理(了解).m in Sources */,
 				2FCAC78E1BE0AA2B00AABC9A /* AppDelegate.m in Sources */,
-				2FCAC7BF1BE0B03E00AABC9A /* 01-GIT本地操作.m in Sources */,
 				2FCAC78B1BE0AA2B00AABC9A /* main.m in Sources */,
-				2FCAC7C01BE0B03E00AABC9A /* 02-GIT团队开发操作.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +496,7 @@
 				2FCAC7B51BE0AA2B00AABC9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FCAC7B61BE0AA2B00AABC9A /* Build configuration list for PBXNativeTarget "git指令Tests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +505,7 @@
 				2FCAC7B81BE0AA2B00AABC9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FCAC7B91BE0AA2B00AABC9A /* Build configuration list for PBXNativeTarget "git指令UITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +514,7 @@
 				2FCAC7BB1BE0AA2B00AABC9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
